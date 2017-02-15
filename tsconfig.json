@@ -1,0 +1,27 @@
+{
+	"version": "2.1.4",
+	"compilerOptions": {
+		"target": "es6",
+		"module": "es6",
+		"allowJs": false,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"preserveConstEnums": true,
+		"declaration": true,
+		"outDir": "./dist-es",
+		"sourceMap": false,
+		"lib": [
+			"es6",
+			"es7",
+			"dom"
+		],
+		"jsx": "preserve",
+		"noUnusedLocals": true,
+		"reactNamespace": "Inferno",
+		"strictNullChecks": false,
+		"removeComments": false
+	},
+	"include": [
+		"./src/**/*"
+	]
+}

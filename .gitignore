@@ -1,0 +1,9 @@
+.history
+.git
+coverage
+node_modules
+.DS_Store
+*.map
+*.log
+*.swp
+*~
