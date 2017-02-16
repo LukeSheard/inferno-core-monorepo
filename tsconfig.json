@@ -9,6 +9,7 @@
 		"preserveConstEnums": true,
 		"declaration": true,
 		"sourceMap": false,
+		"outDir": "dist-es",
 		"lib": [
 			"es6",
 			"es7",
@@ -16,8 +17,10 @@
 		],
 		"jsx": "preserve",
 		"noUnusedLocals": true,
-		"reactNamespace": "Inferno",
 		"strictNullChecks": false,
 		"removeComments": false
-	}
+	},
+	"include": [
+		"packages/*/src/**/*"
+	]
 }
