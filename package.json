@@ -36,5 +36,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/infernojs/inferno.git"
   },
-  "scripts": {}
+  "scripts": {
+    "clean": "rm -rf node_modules && lerna clean --yes"
+  }
 }
